@@ -1,0 +1,46 @@
+body *{
+    display: flex;
+}
+
+.borderStyle{
+    border: 2px solid #000;
+    flex-grow: 1;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.headerStyle{
+    border: 2px solid #000;
+    flex-grow: 1;
+    margin: 5px;
+    flex-direction: column;
+}
+
+#headingS header{
+    height: 100px;
+    width: 1240px;
+}
+
+#side1{
+    float: left;
+}
+
+#side2{
+    float: left;
+}
+
+#contentArea{
+    height: 75vh;
+}
+
+#contentArea aside{
+    flex-grow: 1;
+}
+
+#contentArea main{
+    flex-grow: 4;
+}
+
+footer{
+    height: 100px;
+}
